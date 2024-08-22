@@ -1,4 +1,4 @@
---fwYF小天破解源码圈钱狗卖十元白名单
+
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/LOL/main/Orion.lua", true))()
 local Window = OrionLib:MakeWindow({Name = 'YFHUB', HidePremium = false, SaveConfig = true, ConfigFolder = 'OrionTest', IntroText = 'YFHUB BY YF'})
 OrionLib:MakeNotification({
@@ -28,39 +28,7 @@ local race = Window:MakeTab({
     PremiumOnly = false
 })
 Home:AddParagraph('YF制作','官方QQ群156778698')
-Home:AddDropdown({
-    Name = '脚本',
-    Default = '',
-    Options = {'俄亥俄州','吸人','命令行','追踪','DEX'},
-    Callback = function(Value)
-    if Value == '俄亥俄州' then
-local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/KuEsRX44')))()
-local Window = OrionLib:MakeWindow({Name = 'YFHUB|OHIO', HidePremium = false, SaveConfig = true, ConfigFolder = 'OrionTest', IntroText = 'YFHUB|OHIO'})
-game:GetService('Players').LocalPlayer.PlayerGui.Hotbar.Enabled = true
-game:GetService('Players').LocalPlayer.PlayerGui.Chat.Frame.ChatChannelParentFrame.Visible = true
-game:GetService('Players').LocalPlayer.PlayerGui.Chat.Frame.ChatChannelParentFrame.Position = UDim2.new(0, 0, 0, 40)
-game:GetService('Players').LocalPlayer.PlayerGui.Money.Container.premium.Shadow.Visible = false
-game:GetService('Players').LocalPlayer.PlayerGui.Money.Container['2x cash'].Shadow.Visible = false
-game:GetService('Players').LocalPlayer.PlayerGui.Money.Container.premium.Visible = true
-game:GetService('Players').LocalPlayer.PlayerGui.Money.Container.premium.TextLabel.Text = 'OHIO.YF'
-game:GetService('Players').LocalPlayer.PlayerGui.Money.Container['2x cash'].Visible = true
-game:GetService('Players').LocalPlayer.PlayerGui.Money.Container['2x cash'].TextLabel.Text = '双倍现金 永久有效'
-game:GetService('Workspace').BlackMarket.Dealer.Dealer.ProximityPrompt.HoldDuration = 0
-game:GetService('Workspace').BlackMarket.BlackMarketBillboard.TopLabel.Text = 'YF黑市'
-game:GetService('Workspace').BlackMarket.BlackMarketBillboard.BottomLabel.Text = '向YF出售物品以获得钱!'
-game:GetService('Workspace').OhioSign.Screen.SurfaceGui.Frame.Population.Text = 'YF祝您玩的愉快'
-local Teams = game:GetService('Teams')
-local newTeam = Instance.new('Team')
-newTeam.Name = 'DevvGames'
-newTeam.Parent = Teams
-local player = game:GetService('Players').LocalPlayer
-player.Team = newTeam
-local UserInputService = game:GetService('UserInputService')
-UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
-    if input.KeyCode == Enum.KeyCode.Z then
-        game:GetService('Players').LocalPlayer.PlayerGui.Backpack.Holder.Locker.Visible = true
-    end
-end)
+
 local Fram = Window:MakeTab({
     Name = '资源类',
     Icon = 'rbxassetid://7733771891',
